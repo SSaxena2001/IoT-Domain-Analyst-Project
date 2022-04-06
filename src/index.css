@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-card-gradient {
+  background: #d3959b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #bfe6ba,
+    #d3959b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #bfe6ba,
+    #d3959b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-card-gradient2 {
+  background-color: #85ffbd;
+  background-image: linear-gradient(
+    45deg,
+    #85ffbd 0%,
+    #fffb7d 50%,
+    #03f731 100%
+  );
+}
+
+.bg-glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
