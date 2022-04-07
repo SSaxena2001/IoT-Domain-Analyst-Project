@@ -6,7 +6,10 @@ const Card = () => {
       <div class="card">
         <div class="inner container text-center">
           <h1 class="font-roboto text-[48px]">Video Feed</h1>
-          <img src="http://192.168.2.9:9000?action=stream" class="video-feed" />
+          <img
+            src="http://192.168.65.110:9000/?action=stream"
+            class="video-feed"
+          />
         </div>
       </div>
     </div>
